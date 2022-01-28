@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resume form</title>
+    <link rel="stylesheet" href="resume.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-box">
+        <form id="form" class="form">
+          <h2>RESUME BUILDER FORM</h2>
+          <hr class="line" />
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="username">Name*</label>
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder="Enter Name"
+                />
+                <small class="errorMessage"></small>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="email">E-mail*</label>
+                <input type="text" id="email" placeholder="Enter email" />
+                <small></small>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="phone">Phone Number*</label>
+                <input type="text" id="phone" placeholder="Enter Number" />
+                <small></small>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="date">Date of Birth*</label>
+                <input type="text" id="date" placeholder="Enter DOB" />
+                <small></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="National">Nationality</label>
+                <input
+                  type="text"
+                  id="national"
+                  placeholder="Enter Nationality"
+                />
+
+                <small></small>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+              <div class="form-control">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" placeholder="Enter Gender" />
+                <small></small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-12 align">
+            <div class="form-control">
+              <label for="Linkedin">Linkedin</label>
+              <input type="text" id="Linkedin" placeholder="Linkedin" />
+              <small></small>
+            </div>
+          </div>
+
+          <div class="form-control">
+            <label for="address">ADDRESS*</label>
+            <input
+              class="form-control"
+              type="text"
+              id="address"
+              placeholder="Enter Address"
+            />
+          </div>
+
+          <hr />
+
+          <div class="form-control">
+            <label for="skills"> TECHNICAL SKILLS</label>
+            <div class="row">
+              <div class="col-2">
+                <div class="form-control">
+                  <input type="text" id="skillOne" />
+                  <small></small>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="form-control">
+                  <input type="text" id="skillTwo" />
+                  <small></small>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="form-control">
+                  <input type="text" id="skillThree" />
+                  <small></small>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="form-control">
+                  <input type="text" id="skillFour" />
+                  <small></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="form-control" />
+          <div class="form-control">
+            <label for="Linkedin">EDUCATION</label>
+            <input
+              class="form-control"
+              type="text"
+              id="college"
+              placeholder="College"
+            />
+            <small></small>
+            <input
+              class="form-control"
+              type="text"
+              id="highSchool"
+              placeholder="12th"
+            />
+            <small></small>
+            <input
+              class="form-control"
+              type="text"
+              id="midSchool"
+              placeholder="10th"
+            />
+            <small></small>
+          </div>
+          <hr />
+          <div class="form-control">
+            <label for="work">WORK EXPERIENCE</label>
+
+            <input id="workOne" class="form-control" type="text" />
+
+            <small></small>
+          </div>
+          <hr />
+          <div class="form-control">
+            <label for="project">PROJECTS</label>
+            <div><h5 class="subtopic">Title</h5></div>
+            <input class="form-control" type="text" id="projectOne" />
+            <div><h5 class="subtopic">Working</h5></div>
+            <textarea
+              id="projectContentOne"
+              type="text"
+              class="form-control contentbox"
+            >
+            </textarea>
+            <div><h5 class="subtopic">Title</h5></div>
+            <input class="form-control" type="text" id="projectTwo" />
+            <div><h5 class="subtopic">Working</h5></div>
+            <textarea
+              id="projectContentTwo"
+              type="text"
+              class="form-control contentbox"
+            >
+            </textarea>
+
+            <small></small>
+          </div>
+
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="./resume.js"></script>
+  </body>
+</html>
